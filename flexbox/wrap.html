@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="container mx-auto py-5">
+      <h1>Wrap</h1>
+      <p>
+        Essa propriedade controla como os itens vão se adaptar as layout.
+        flex-nowrap os itens tendem a ficar na mesma linha e com o flex-wrap eles vão encaixando um embaixo 
+        do outro.
+      </p>
+      <div class="bg-green-200 my-5 p-3 flex flex-row flex-nowrap">
+          <p class="bg-red-200 p-4 m-3">Flex no wrap</p>
+          <p class="bg-red-300 p-4 m-3">Flex no wrap</p>
+          <p class="bg-red-400 p-4 m-3">Flex no wrap</p>
+          <p class="bg-red-500 p-4 m-3">Flex no wrap</p>
+          <p class="bg-red-600 p-4 m-3">Flex no wrap</p>
+          <p class="bg-red-700 p-4 m-3">Flex no wrap</p>
+      </div>
+      <div class="bg-green-200 my-5 p-3 flex flex-row flex-wrap">
+          <p class="bg-teal-200 p-4 m-3">Flex wrap</p>
+          <p class="bg-teal-300 p-4 m-3">Flex wrap</p>
+          <p class="bg-teal-400 p-4 m-3">Flex wrap</p>
+          <p class="bg-teal-500 p-4 m-3">Flex wrap</p>
+          <p class="bg-teal-600 p-4 m-3">Flex wrap</p>
+          <p class="bg-teal-700 p-4 m-3">Flex wrap</p>
+      </div>
+    </div>
+  </body>
+</html>
