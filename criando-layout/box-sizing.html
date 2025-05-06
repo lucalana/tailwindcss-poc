@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="container mx-auto py-5">
+      <h1>border-content vs border-box</h1>
+      <p>Border-box: O tamanho definido no elemento vai incluir todo padding e margin que é adicionado</p>
+      <p>
+        Border-content: O tamanho definido para o elemento não vai incluir o padding e margin assim 
+        a area total aumenta.
+      </p>
+      <div class="my-5"></div>
+      <div class="container bg-blue-200 m-4 box-border p-10">
+          border box(classe: box-border)
+      </div>
+      <div class="container bg-green-200 m-4 box-content p-10">
+          border content(classe: box-content)
+      </div>
+    </div>
+  </body>
+</html>

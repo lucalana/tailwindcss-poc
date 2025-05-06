@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="container mx-auto py-5">
+      <h1>Z index</h1>
+      <p>
+       Essa propriedade é usada para controlar a sobreposição de elementos na página e no tailwind 
+       usa z-* e o valor que da index x como z-10, z-20, z-40.
+      </p>
+      <div class="my-5"></div>
+      <div class="relative h-100 bg-gray-200">
+        <div class="bg-red-400 absolute z-40 left-5">Frente</div>
+        <div class="bg-blue-400 absolute z-20  left-15 m-1">Atras</div>
+      </div>
+    </div>
+  </body>
+</html>

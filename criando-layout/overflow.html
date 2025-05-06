@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="container mx-auto py-5">
+      <h1>Overflow</h1>
+      <p>
+        Usamos para controlar quando o conteúdo é muito grande, criando ou eliminando scroll.
+        Além controlar também os eixos do scroll.
+        Exemplo: 
+          overflow-hidden, overflow-auto, overflow-x-auto, overflow-y-auto
+      </p>
+      <div class="my-5"></div>
+      <div class="bg-red-200 overflow-hidden h-20 mb-2">
+          <p>Overflow hidden</p>
+          <p>Overflow hidden</p>
+          <p>Overflow hidden</p>
+          <p>Overflow hidden</p>
+          <p>Overflow hidden</p>
+      </div>
+      <div class="bg-red-200 overflow-auto h-20 mb-2">
+          <p>Overflow auto</p>
+          <p>Overflow auto</p>
+          <p>Overflow auto</p>
+          <p>Overflow auto</p>
+          <p>Overflow auto</p>
+      </div>
+      <div class="bg-red-200 overflow-auto h-20 mb-2">
+        overflow auto aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      </div>
+      <div class="bg-red-200 overflow-x-auto h-20 mb-2">
+        overflow x auto aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      </div>
+      <div class="bg-red-200 overflow-x-scroll h-20 mb-2">
+        overflow x scroll aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      </div>
+    </div>
+  </body>
+</html>
